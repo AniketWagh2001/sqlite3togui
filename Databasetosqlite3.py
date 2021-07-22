@@ -12,6 +12,9 @@ cur.close()
 conn.commit()
 conn.close()
 
+def testing_git():
+    print('Test Successfull')
+
 def put():
     conn= db.connect('saveit.db')
     cur = conn.cursor()
