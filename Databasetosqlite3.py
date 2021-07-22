@@ -14,6 +14,8 @@ conn.close()
 
 def testing_git():
     print('Test Successfull')
+    for i in range(10):
+        print('just for random testing')
 
 def put():
     conn= db.connect('saveit.db')
